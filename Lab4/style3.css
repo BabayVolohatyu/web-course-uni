@@ -19,7 +19,7 @@ a {
 }
 .icon-list li::before {
    
-    content:"\2713";
+    content:"\2713"; /*remake*/ 
 }
 
 ul ul ul {
