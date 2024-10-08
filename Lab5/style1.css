@@ -1,4 +1,4 @@
-div {
+.plan {
     background: rgb(255, 165, 0);
     width: 500px;
     padding: 20px;
@@ -22,18 +22,18 @@ ul li {
     padding-left: 30px;
 }
   
-.first {
+.plan-list {
     margin-left: 10px;
     margin-right: 10px;
 }
   
-.second {
+.plan-sublist {
     font-size: 18px;
     font-style: italic;
     padding-left: 10px;
 }
   
-.second li {
+.plan-sublist li {
     background-color: rgb(153, 180, 102);
     margin-bottom: 10px;
     padding-left: 40px;
@@ -44,7 +44,7 @@ span {
     display: inline-block;
 }
   
-.first > li > span {
+.plan-list > li > span {
     font-size: 20px;
     font-weight: 700;
     background: rgb(199, 124, 106);
@@ -52,43 +52,43 @@ span {
     margin-left: 10px;
 }
   
-.first span {
+.plan-list span {
     background: rgb(218, 106, 32);
 }
   
-.first > li {
+.plan-list > li {
     background-color: rgb(103, 158, 128);
     background-image: url("icons/rule.png");
 }
   
-.choose-way {
+.icon-choose_way {
     background-image: url("icons/ad_units.png");
 }
   
-.plane-ticket {
+.icon-plane-ticket {
     background-image: url("icons/airplane_ticket.png");
 }
   
-.hotel {
+.icon-hotel {
     background-image: url("icons/hotel.png");
 }
   
-.car-rent {
+.icon-car-rent {
     background-image: url("icons/car_rental.png");
 }
   
-.museum {
+.icon-museum {
     background-image: url("icons/museum.png");
 }
   
-.casino {
+.icon-casino {
     background-image: url("icons/casino.png");
 }
   
-.festival {
+.icon-festival {
     background-image: url("icons/festival.png");
 }
   
-.bar {
+.icon-bar {
     background-image: url("icons/local_bar.png");
 }
