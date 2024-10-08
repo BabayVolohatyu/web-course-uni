@@ -1,0 +1,26 @@
+.div-border {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #fb00ff;
+    width: 250px;
+    height: 300px;
+    margin: 80px;
+}
+.shadow-type-1 {
+    box-shadow: #fb00ff -10px -10px 5px;
+}
+.shadow-type-2 {
+    box-shadow: #fb00ff 0 0 10px 10px;
+}
+.shadow-type-3 {
+    box-shadow: #fb00ff 5px 5px 10px;
+}
+.shadow-type-4 {
+    box-shadow: #fb00ff 0 0 30px;
+}
+.shadow-type-5 {
+    box-shadow: inset 0 10px green, inset 0 -10px yellow, inset 10px 0 red, inset -10px 0 blue;
+}
+.shadow-type-6 {
+    box-shadow: green 0 15px 0 -5px, yellow 0 -15px 0 -5px;
+}

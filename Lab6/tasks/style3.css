@@ -1,0 +1,26 @@
+.row-wrapper {
+    display: flex;
+}
+.content-block h3,
+.content-block h4 {
+    text-align: center;
+}
+.content-block p{
+    text-align: justify;
+}
+.content-block {
+    margin: 30px;
+    padding: 20px 60px;
+    background-color: #f6d0f7;
+    border-radius: 5rem;
+}
+.inner-content-block{
+    width: 350px;
+    margin: auto;
+    padding: 20px 60px;
+    background-color: #ff00f7;
+    border-radius: 5rem;
+}
+.inner-content-block:last-child {
+    margin-left: 95px
+}

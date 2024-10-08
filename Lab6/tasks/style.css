@@ -1,0 +1,36 @@
+header {
+    position: sticky;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(221, 0, 255);
+    border-radius: 50%;
+}
+.logo > img {
+    width: 100px;
+    border-radius: 50%;
+}
+.navigation {
+    margin-left: auto;
+    list-style: none;
+}
+.navigation li {
+    float: left;
+    margin: 0 10px;
+}
+.navigation a {
+    display: block;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #7a0085bd;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
