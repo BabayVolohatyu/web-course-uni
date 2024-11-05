@@ -1,0 +1,86 @@
+.wrapper {
+   margin: 0 auto;
+}
+img {
+    width: 90px;
+}
+
+h1 ~ p {
+    color: gray;
+    font-weight: 400;
+}
+
+.measurments{
+    font-weight: 400;
+    color: gray;
+}
+.measurments,
+.today-temperature {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.today-temperature {
+    align-items: center;
+}
+.today-temperature p {
+    display: inline-flex;
+    font-size: 45px;
+    font-weight: 600;
+}
+.temperature-mark {
+    align-self: top;
+    color: gray;
+}
+.today-temperature .temperature-mark {
+    font-size: 20px;
+}
+.temperature-block .temperature-mark {
+    font-size: 10px;
+}
+.measurments {
+    flex-wrap:wrap;
+    align-items: center;
+}
+.full-info {
+    margin-left: auto;
+}
+.full-info p {
+    color: gray;
+}
+.additional-value {
+    color: black;
+}
+
+.week-info {
+    display: flex;
+    flex-flow: column wrap;
+}
+.day-weather {
+    font-size: 14px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px gray;
+    border-style: solid none;
+}
+.day-name {
+    width: 25%;
+}
+.day-weather img{
+    width: 80px;
+}
+
+.temperature-block {
+    display: flex;
+    flex-flow: column wrap;
+}
+.min-temperature {
+    margin-top: 5px;
+    color: gray;
+}
+.pollen-text {
+    color: gray;
+}
