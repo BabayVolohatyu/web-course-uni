@@ -1,0 +1,393 @@
+ul {
+    list-style-type: none;
+}
+h2 {
+    color:black;
+}
+
+button > a,
+button > a:visited,
+button > a:hover{
+    text-decoration: none;
+    color: white;
+}
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+header > img {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.header-buttons-container {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.header-button {
+    flex: 3;
+    background-color: gray;
+    color:white;
+    height: 100%;
+}
+.button {
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+}
+.burger-menu {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    z-index: 1;
+}
+.burger-menu > span {
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: white;
+}
+.burger-menu > span::before,
+.burger-menu > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    
+}
+.burger-menu> span::before {
+    content: "";
+    top: -8px;
+}
+.burger-menu > span::after {
+    content: "";
+    top: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slogan-wrapper {
+    width: 100%;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+
+
+.work-examples-box {
+    color: white;
+    padding: 30px;
+    width: 70%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.work-head {
+    display: flex;
+}
+.work-head .button {
+    margin-left: auto;
+}
+.body-button {
+    background-color: greenyellow;
+}
+.gallery-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    height: 48vw;
+}
+.gallery-photo {
+    width: 32%;
+    height: auto;
+}
+
+.contact-section-wrapper {
+    width: 70%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.contact-section-wrapper h3 {
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.offers-box-wrapper {
+    width: 70%;
+    padding: 30px;
+    color: black;
+}
+.offers-box {
+    display: flex;
+    flex-flow: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.offer {
+    display: flex;
+    width: 14%;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.offer img {
+    width: 50%;
+    height: auto;
+    background-color:greenyellow;
+    padding: 7px;
+    border-radius: 50%;
+}
+.offer-name {
+    margin: 10px 0;
+    font-size: 24px;
+}
+.offer-description {
+    font-weight: 100;
+}
+
+
+
+.news-box-wrapper {
+    width: 70%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.news-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    height: auto;
+}
+.news {
+    background-color: black;
+    display: flex;
+    width: 49%;
+    margin-bottom: 10px;
+}
+.news-photo {
+    margin-right: 15px;
+    width: 34.5%;
+}
+.news-date {
+    font-weight: 100;
+    color:white;
+    margin: 10px 0 5px 0;
+}
+.news-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.news-description {
+    font-weight: 100;
+    margin: 0 5px 20px 0;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+footer p {
+    font-weight: 600;
+    margin: 30px
+}
+.icon-wrapper {
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-wrapper img {
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+    header > img {
+        height: 25px;
+        width: auto;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    .header-buttons-container {
+        display: none;
+    }
+    .header-buttons-container li {
+        display: flex;
+    }
+    .header-button {
+        width: 100%;
+    }
+    .like-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery-wrapper {
+        margin-top: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+        height: 120vw;
+    }
+    .gallery-photo {
+        width: 49%;
+        height: auto;
+    }
+
+
+    .offers-box {
+        height: 110vw;
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 30px;
+        justify-content: space-around;
+        align-content: space-between;
+
+    }
+    .offer {
+        background-color: white;
+        display: flex;
+        width: 33%;
+        height: 45vw;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+
+
+
+    .news-wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: stretch;
+        height: auto;
+    }
+    .news {
+        background-color: black;
+        display: flex;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-wrapper {
+        margin-top: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+        height: 450vw;
+    }
+    .gallery-photo {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .offers-box {
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-top: 30px;
+        align-items: center;
+        align-content: space-between;
+    }
+    .offer {
+        background-color: white;
+        display: flex;
+        width: 80%;
+        height: auto;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        padding: 2vw;
+        margin-bottom: 10px;
+    }
+    .offer p {
+        margin-bottom: 10px;
+    }
+    .offer img {
+        width: 25%;
+        height: auto;
+        background-color: greenyellow;
+        padding: 7px;
+        border-radius: 50%;
+    }
+
+
+
+    .news-wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+    .news {
+        background-color: black;
+        display: flex;
+        flex-flow: column;
+        width: 80%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .news-description {
+        padding: 10px;
+        text-align: justify;
+    }
+    .news-photo {
+        width: 100%;
+    }
+}
